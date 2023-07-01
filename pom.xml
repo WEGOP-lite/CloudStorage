@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>cloudstorage-item</module>
+        <module>cloudstorage-registry</module>
+        <module>cloudstorage-gateway</module>
     </modules>
 
 
@@ -25,6 +27,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
+<!--    子工程使用的插件信息-->
     <build>
         <plugins>
             <plugin>
