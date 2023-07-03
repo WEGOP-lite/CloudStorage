@@ -14,6 +14,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>cloudstorage-item-interface</module>
+        <module>cloudstorage-item-service</module>
     </modules>
 
     <properties>

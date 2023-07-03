@@ -1,0 +1,18 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: item-service
+  datasource:
+    url: jdbc:mysql:///cloudstorage
+    username: root
+    password: 258258
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    lease-expiration-duration-in-seconds: 15
+    lease-renewal-interval-in-seconds: 5
+mybatis:
+  type-aliases-package: com.cloudstorage.item.pojo
