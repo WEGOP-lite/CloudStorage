@@ -12,6 +12,7 @@
         <module>cloudstorage-item</module>
         <module>cloudstorage-registry</module>
         <module>cloudstorage-gateway</module>
+        <module>cloudstorage-common</module>
     </modules>
 
 
