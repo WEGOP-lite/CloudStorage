@@ -9,6 +9,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -16,7 +17,7 @@ import java.util.List;
  * @author wegop
  * @date 2023/7/5 4:26
  */
-@Controller
+@RestController
 @RequestMapping("category")
 public class CategoryController {
     @Autowired
