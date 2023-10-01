@@ -58,7 +58,13 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
-<!--        <dependency>-->
+        <dependency>
+            <groupId>com.cloudstorage.common</groupId>
+            <artifactId>cloudstorage-common</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <!--        <dependency>-->
 <!--            <groupId>com.cloudstorage.common</groupId>-->
 <!--            <artifactId>cloudstorage-common</artifactId>-->
 <!--            <version>1.0-SNAPSHOT</version>-->
